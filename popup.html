@@ -1,0 +1,89 @@
+<!--<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+
+  <h2>🎨 ChatCanvas</h2>
+
+  <h3>Pick Color</h3>
+  <input type="color" id="colorPicker" />
+
+  <h3>Upload Wallpaper</h3>
+  <input type="file" id="imageUpload" />
+
+  <h3>Quick Colors</h3>
+  <div id="presetColors">
+    <button data-color="#ffdae0">Pink</button>
+    <button data-color="#D8BFD8">Lavender</button>
+    <button data-color="#B8FFB8">Green</button>
+    <button data-color="#CADBED">Blue</button>
+    <button data-color="#FFFFAB">Yellow</button>
+  </div>
+
+  <h3>Save Theme</h3>
+  <input type="text" id="themeName" placeholder="Theme name" />
+  <button id="saveTheme">Save</button>
+  <button id="resetTheme">Reset</button>
+
+  <h3>My Collection</h3>
+  <div id="collection"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>-->
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="popup.css">
+
+  <!-- Pixel font -->
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+  <!-- Clean font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <h1 class="title">GPTSkin</h1>
+
+  <div class="section">
+    <label>Pick Color</label>
+    <input type="color" id="colorPicker" />
+  </div>
+
+  <div class="section">
+    <label>Upload Wallpaper</label>
+    <input type="file" id="imageUpload" />
+  </div>
+
+  <div class="section">
+    <label>Quick Colors</label>
+    <div id="presetColors">
+      <button data-color="#ffdae0">Pink</button>
+      <button data-color="#D8BFD8">Lavender</button>
+      <button data-color="#B8FFB8">Green</button>
+      <button data-color="#CADBED">Blue</button>
+      <button data-color="#FFFFAB">Yellow</button>
+    </div>
+  </div>
+
+  <div class="section">
+    <label>Save Theme</label>
+    <div class="row">
+      <input type="text" id="themeName" placeholder="Theme name" />
+      <button id="saveTheme">Save</button>
+    </div>
+    <button id="resetTheme" class="secondary">Reset</button>
+  </div>
+
+  <div class="section">
+    <label>My Collection</label>
+    <div id="collection"></div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
